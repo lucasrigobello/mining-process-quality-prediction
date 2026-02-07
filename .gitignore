@@ -4,3 +4,6 @@
 .venv
 .env
 __pycache__/
+/eda notebook/data/01_raw/*.csv
+/eda notebook/data/02_preprocessed/*.csv
+/eda notebook/data/03_features/*.csv
