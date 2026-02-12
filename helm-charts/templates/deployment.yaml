@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: miningqualitypredicition-api
+  labels:
+    app: miningqualitypredicition-api
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: miningqualitypredicition-api
+  template:
+    metadata:
+      labels:
+        app: miningqualitypredicition-api
+    spec:
+      containers:
+      - name: miningqualitypredicition-api
+        image: lucasrigobello/mining-process-quality-prediction
+        ports:
+        - containerPort: 8000
+        resources:
+          limits:
+            cpu: 500m
+          requests:
+            cpu: 200m
