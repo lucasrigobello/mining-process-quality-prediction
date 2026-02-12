@@ -1,0 +1,31 @@
+title: Mining Process Quality Prediction - API com FastAPI
+summary: Predição de % Silica Concentrate
+
+description: >
+  O processo de flotação, na indústria de mineração, é utilizado para concentrar o minério de ferro.
+
+  A porcentagem de Ferro na entrada do processo é providenciado pelo planejamento de Lavra.
+  
+  Além do minério desejando, também, são encontrados impurezas, como Sílica.
+  
+  Assim, o objetivo do processo de flotação é aumentar a concentração de Ferro e remover as impurezas.
+
+  Esta API foi desenvolvida para prever a % Silica Concentrate (sílica no concentrado).
+  
+  O modelo treinado utiliza técnicas de machine learning para realizar essa predição e é exposto publicamente 
+  através de uma API criada com **FastAPI**.
+
+version: "0.0.1"
+
+contact:
+  name: "Lucas Rigobello"
+  email: "lucasrigobello@gmail.com"
+      
+license_info:
+  name: "GitHub repositório"
+  url: "https://github.com/lucasrigobello/mining-process-quality-prediction"
+
+openapi_tags:
+  -
+    "name": "Predict"
+    "description": "Realize a prediçao de % Silica Concentrate"
