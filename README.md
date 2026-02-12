@@ -28,7 +28,8 @@ Os modelos são expostos via FastAPI, permitindo integração com sistemas de in
 │   ├── config/               # Configurações gerais do projeto
 │   ├── data/                 # Pasta para organização das bases de dados e dataset
 │   ├── EDA Results/          # Repositório de resultados/imagens de EDA
-│   └── models/               # Pasta como repositório dos modelos treinados
+│   ├── models/               # Pasta como repositório dos modelos treinados
+│   └── eda notebook.ipynb    # Notebook com resultados de EDA e Treinamento do modelo
 │
 ├── .github/                  # Workflows para Github Action
 ├── helm-charts/              # Manifests para deploy no Kubernetes
